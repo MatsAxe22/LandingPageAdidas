@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Promoção</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Banner principal -->
+  <header class="banner">
+    <div class="overlay"></div>
+    <div class="banner-content">
+      <h1>Inspire-se para Vencer: A Nova Coleção da Adidas Chegou!</h1>
+      <p>Descubra a união perfeita entre estilo, performance e inovação. Na adidas, criamos produtos que inspiram você a alcançar o melhor, seja nos treinos, nas ruas ou na sua rotina. Explore nossa coleção e vista-se para vencer!</p>
+    </div>
+  </header>
+
+  <!-- Formulário -->
+  <section class="form-section">
+    <h2>Solicite seu cupom</h2>
+    <form class="promo-form">
+
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" placeholder="Seu nome..." required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="Seu e-mail..." required>
+
+      <label for="promo-code">Cupom:</label>
+      <input type="text" id="promo-code" name="promo-code" placeholder="Digite 'PROMO2024'..." required>
+
+      <label for="cidade">Cidade:</label>
+      <input type="text" id="cidade" name="promo-code" placeholder="Sua cidade..." required>
+
+      <label for="contato">Contato:</label>
+      <input type="text" id="contato" name="promo-code" placeholder="Sua forma de contato..." required>
+
+      <label for="cliente">Cliente:</label>
+      <select name="cliente" id="cliente">
+        <option value="Sim">Sou Cliente</option>
+        <option value="Nao">Não sou Cliente</option>
+      </select>
+
+      <button type="submit">Solicitar Cupom</button>
+    </form>
+  </section>
+</body>
+</html>
